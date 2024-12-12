@@ -1,1 +1,9 @@
+rent = int(input("Enter Flat rent :"))
+food = int(input("Enter amount spended for Food :"))
+elec_Unit = int(input("Enter the unit of electricity used:"))
+Charge_unit = 10
+No_of_pep = int(input("Enter the number of People living in Flat: "))
 
+Total_bill = elec_Unit*Charge_unit
+Output = (food+rent+Total_bill)//No_of_pep
+print("Each person should pay $",Output)
